@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Create AD</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><span class="flaticon-pizza-1 mr-1"></span>Circular Pie<br><small>One stop shop for your customised pizza!</small></a>
+         
+      </div>
+    </nav>
+    <!-- END nav -->
+
+    <div style="background-image: url(images/bg_1.jpg);height: max();">
+      
+      <!--login -->
+            
+              <div style="width:50% ;padding: 8px; height: max(); margin: auto;">
+                
+              <h1 class="mb-3 mt-5 bread" style="text-align: left; color: #fac564; font-weight: bold;">Welcome to Circular Pie Ad Space</h1>
+              <h5  style="text-align: left; color: #fac564; font-weight: bold;">Advertising form</h1>
+
+            <form action="submit_ad.php" method="POST">
+              <input name="uname" type="text" placeholder="Company Name" size="50"  required/>
+              <br>
+              <br>
+              <input name="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Company Email" size="50"  required/>
+              <br>
+              <br>
+                <input name="title" type="text" placeholder="Ad Title" size="50"  required/>
+              <br>
+			  <br>
+              <textarea name="desc" type="text" placeholder="Ad Description" cols="54" rows="2"  required></textarea> 
+              <br>
+              <br>
+             <input name="image" type="URL" placeholder="Image URL" size="50"  required/>
+              <br>
+              <br>
+              <label for="type" style="text-align: left; color: #fac564; font-weight: bold;" size="50">Type of Ad:</label>
+				<select id="type" name="type">
+				  <option value="Text">Text Ad</option>
+				  <option value="Image">Image Ad</option>
+				  <option value="Video">Video Ad</option>
+				</select>
+        <br>
+              <br>
+              <label for="type" style="text-align: left; color: #fac564; font-weight: bold;" size="50">Type of Request:</label>
+        <select id="type" name="type">
+          <option value="Create">Create Ad</option>
+          <option value="Delete">Delete Ad</option>
+          <option value="Modify">Modify Ad</option>
+        </select>
+              <br>
+			  <br>
+			  <label for="duration" style="text-align: left; color: #fac564; font-weight: bold;" size="50">Ad Start Date:</label>
+             <input name="adstart" type="date" placeholder="Ad Start Date" size="50"  required/>
+              <br>
+			  <br>
+             <label for="duration" style="text-align: left; color: #fac564; font-weight: bold;" size="50">Ad Duration:</label>
+				<select id="duration" name="duration">
+				  <option value="One">One Week</option>
+				  <option value="One">One Weeks</option>
+				  <option value="Three">Three Weeks</option>
+				</select>
+              <br>
+              <br>
+              <input type="submit" class="btn btn-primary"  value="Submit" style="border-radius: 10%; ;font-weight: bold" formaction="submit_ad.html">
+        </form>
+            </div>
+
+    </div>
+
+    
+
+
+    <footer>
+    </footer>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
